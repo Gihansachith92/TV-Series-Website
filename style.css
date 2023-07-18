@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-img{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+.up{
+  height: 550px
+}
+
+body{
+  
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+.sb{
+  background-color: rgb(149, 90, 151, 0.5); color: aqua;
+  border-radius: 20px;
+  margin-right: 5px;
+  padding-left: 20px;
+}
+
+.witch{
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  margin-left: 5%;
+ 
+}
+
+.witch h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+span{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.down{
+  
+   width: 90%;
+  margin: 5% auto; 
+ 
+  height: 100vh;
+  /* color: aliceblue; */
+  /* background-color: blue; */
+}
+
+/*card css styles */
+
+#r{
+  display: flex;
+  margin-left: 30px;
+  
+  
+  
+}
+
+#c{
+  /* margin: 5px; */
+  margin-left: 30px;
+  
+  
+  
+}
+
+#img:hover{
+  transform: scale(1.15);
+}
+
+#img{
+  border-radius: 20px;
+  width: 180px;
+  height: 270px;
+  transition: all 0.3s;
+  
+}
+
+#p{
+  color: rgb(182, 201, 200);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+
+
+/* footer css styles..................................------------------------------- */
+
+footer{
+  background-color: #111;
+  
+  
+}
+
+.footerContainer{
+  width: 100%;
+  
+  padding: 70px 30px 20px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footerBottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p{
+  color: white;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+
+
+/* cards mobile responsive-------------------------- */
+
+@media (max-width: 700px){
+  .cardcol{
+    flex-direction: column;
+    
+  }
+
+  #c{
+    margin-left: 25%;
+  }
+}

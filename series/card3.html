@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <title>Game of Thrones</title>
+    <link rel="icon" type="image/jpg" href="cardimg/logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="jquery.com_jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="card1.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body style="background-color: rgb(1, 12, 14);" >
+    <!-- nav bar begining point -->
+    <nav class="navbar navbar-expand-lg navbar-dark " >
+      <div class="container">
+       
+        <h1 class="navbar-brand " style="background-color: red; padding: 5px; border-radius: 10px;" href="#"><img src="cardimg/logo.png" alt="logo" height="30px" style="padding-right: 10px;"><b>S</b>eries<i>Z</i>one</h1>
+       
+
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav bar end here -->
+    
+     <div class="up">
+         <img src="cardimg/s3.jpg" alt="bg image" class="bg-img">
+
+       
+         <div class="witch">
+          <h1>Game of Thrones</h1>
+          <p> <img src="cardimg/star.png" alt="star" height="25px"> <b>9.2</b> IMDb <span>| 2011    57 min  |  </span>  Drama | Action | Adventure</p>
+          <br>
+          <span> A Game of Thrones takes place over the course of <br>
+             one year on or near the fictional continent of Westeros. <br>
+             The story begins when King Robert visits the northern castle Winterfell <br>
+              to ask Ned Stark to be his right-hand assistant, or Hand of the King. <br>
+              The previous Hand, Jon Arryn, died under suspicious circumstances.</span>
+          <br><br><br>
+          <a href="https://youtu.be/KPLWWIOCOOQ" target="_blank"> <button class="btn btn-outline-light" style="border-radius: 50px; margin-right: 5px;"> <img src="cardimg/ytbtn.png" alt="ytbutton">Watch Trailer</button> </a>
+          <button  id="down" class="btn btn-outline-light" style="border-radius: 50px;"> <img src="cardimg/download.png" alt="dwnloadbutton">Download</button>
+        </div>
+
+   
+      
+     </div>
+
+     <div class="seasons" >
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/fadxu716bb" target="_blank">Season 1</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/Ha2RAi5IjB" target="_blank">Season 2</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/Ry6y0qEg73" target="_blank">Season 3</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/vpSV8p9XPa" target="_blank">Season 4</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/bjMYpzrcqt" target="_blank">Season 5</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/UXuBsec7GZ" target="_blank">Season 6</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/O0YQ1ypGgB" target="_blank">Season 7</a></button>
+        <button class="btn btn-dark" type="button"><a href="https://www.tvseriesnmovies.com/links/view/TVahVC7gbu" target="_blank">Season 8</a></button>
+      </div>
+     </div>
+
+
+          <!-- footer section begin here ------------------------------------------------------------------------------------------- -->
+
+ <footer>
+  <div class="footerContainer">
+    <div class="socialIcons">
+      <a href="https://www.linkedin.com/in/gihan-sachith-82276a217/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Gihansachith92" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://twitter.com/gihan_sachith" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UCVCa_2yuXC8kieHXez7Zb6Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.hackerrank.com/gihansachith92" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+    </div>
+
+    
+  </div>
+
+  <div class="footerBottom">
+    <p>Copyright &copy;2023; Designed by <span class="designer">Gihan Sachith</span></p>
+  </div>
+
+ </footer>
+
+ <!-- footer section end here ------------------------------------------------------------------------------------------- -->
+
+
+
+     <script>
+       $(document).ready(function(){
+         $("#down").click(function(){
+           $(".seasons").slideDown(alert("Download Links are at Down"));
+         });
+       });
+     </script>
+
+  </body>
+  
+</html> 
